@@ -1,0 +1,173 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #f5f8ff;
+    font-family: sans-serif;
+}
+.container
+{
+    width:100%;
+    height: auto;
+    padding-top: 1em;
+ 
+}
+.text
+{
+    color:#097e8dfa;
+    font-size: 25px;
+    margin-top: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.users
+{
+    width: 80%;
+    margin:auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+}
+@media(max-width: 768px)
+{
+    .row{
+        width: 100%;
+    }
+}
+.profile-card
+{
+    background-color: #ffffff;
+    width: 230px;
+    height: 270px;
+    margin: 20px 10px 10px 10px;
+}
+@media(max-width: 480px)
+{
+    .profile-card
+    {
+        width: 290px;
+        height: 250px;
+    }
+}
+.profile-content
+{
+    padding:15px;
+    display: block;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.profile-image
+{
+    text-align: center;
+}
+.desc
+{
+    text-align: center;
+}
+.desc h2
+{
+    color: rgb(12,172,150);
+    font-size: 15px;
+}
+
+#tarih{
+    font-size: 15px;
+
+}
+ #nçalış {
+     height: 20px;
+ }
+
+ #çalışma {
+    height: 20px;
+    background-color:rgb(223, 249, 245);
+    
+    text-align: center;
+
+}
+
+.desc p{
+    font-size: 13px;
+    line-height: 1.3em;
+    margin-top: -10px;
+    color: hsl(0, 0%, 0%);
+     
+}
+.btn-div
+{
+    text-align: center;
+   
+}
+.btn
+{
+    
+    background-color: rgb(223, 249, 245);
+    color: #ffffff;
+    width: 200px;
+    cursor: pointer;
+    height: 38px;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 3px 3px 3px 3px #e6e6e6;
+    border-radius: 3px;
+    outline:none;
+    border:none;
+    text-transform: uppercase;
+}
+
+.h3
+{
+    color: rgb(12,172,150);
+    font-size: 20px;
+}
+
+a{
+   
+    padding: 3px;
+}
+
+
+.button-value {
+ 
+    border: 1px solid #6759ff;
+    padding: 1em 3em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #6759ff;
+    cursor: pointer;
+
+}
+
+.button-value2 {
+
+    border: 1px solid #6759ff;
+    padding: 1em 3em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #6759ff;
+    cursor: pointer;
+}
+
+#buttons{
+    
+ text-align: center;}
+
+#buttons2{
+    text-align: center;}
+
+.active {
+    background-color: #6759ff;
+    color: #ffffff;}
+.hide {
+    display: none;
+}
+
+ 
